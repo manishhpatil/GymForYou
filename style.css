@@ -1,0 +1,322 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #89c2d7;
+    color: #da3e3e;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1em;
+    margin: 0 1em;
+}
+
+section {
+    padding: 2em;
+}
+
+
+
+
+    /* Additional styling for the Home section */
+    #home {
+        background-color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+
+    #home h2 {
+        color: #333;
+    }
+
+    #home p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    /* Styling for the 'Why Choose Us?' section */
+    #home div {
+        margin-top: 30px;
+    }
+
+    #home div ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #home div ul li {
+        background-color: #f4f4f4;
+        padding: 10px;
+        margin: 5px 0;
+        border-radius: 5px;
+    }
+
+    /* Styling for the 'Our Mission' and 'Facilities' sections */
+    #home div h3 {
+        color: #333;
+        margin-top: 20px;
+    }
+
+    #home div p {
+        color: #666;
+        line-height: 1.6;
+    }
+
+
+    /* schedule*/
+
+    /* Additional styling for the Schedule section */
+    #schedule {
+        background-color: #f4f4f4;
+        padding: 3em;
+        text-align: center;
+    }
+
+    #schedule h2 {
+        color: #333;
+    }
+
+    #schedule p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    /* Styling for the weekly class schedule table */
+    #schedule div table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    #schedule div table th, #schedule div table td {
+        padding: 10px;
+        border: 1px solid #ddd;
+    }
+
+    #schedule div table th {
+        background-color: #333;
+        color: #fff;
+    }
+
+    #schedule div table td {
+        background-color: #fff;
+        color: #333;
+    }
+
+    /* Styling for the special events and workshops section */
+    #schedule div h3 {
+        color: #333;
+        margin-top: 20px;
+    }
+
+    #schedule div p {
+        color: #666;
+        line-height: 1.6;
+    }
+
+
+/*contact us */
+
+
+    /* Additional styling for the Contact Us section */
+    #contact {
+        background-color: #fff;
+        padding: 3em;
+        text-align: center;
+    }
+
+    #contact h2 {
+        color: #333;
+    }
+
+    #contact p {
+        color: #666;
+        line-height: 1.6;
+        margin-bottom: 20px;
+    }
+
+    /* Styling for the Contact Information section */
+    #contact div {
+        margin-top: 30px;
+    }
+
+    #contact div h3 {
+        color: #333;
+        margin-bottom: 15px;
+    }
+
+    #contact div p {
+        color: #666;
+    }
+
+    /* Styling for the Get in Touch section */
+    #contact div form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    #contact div form label {
+        font-weight: bold;
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+    #contact div form input,
+    #contact div form textarea {
+        width: 50%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    #contact div form button {
+        padding: 10px 20px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #contact div form button:hover {
+        background-color: #555;
+    }
+
+/*footer section */
+
+
+    /* Additional styling for the Footer section */
+    footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 1em 0;
+    }
+
+    #footer-content {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    #social-media,
+    #newsletter {
+        flex: 1;
+        text-align: left;
+        margin: 0 20px;
+    }
+
+    #social-media h3,
+    #newsletter h3 {
+        color: #fff;
+        margin-bottom: 15px;
+    }
+
+    #social-media ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    #social-media li {
+        margin-bottom: 10px;
+    }
+
+    #social-media a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #social-media a:hover {
+        text-decoration: underline;
+    }
+
+    #newsletter form {
+        display: flex;
+        align-items: center;
+    }
+
+    #newsletter input {
+        flex: 1;
+        padding: 10px;
+        margin-right: 10px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    #newsletter button {
+        padding: 10px 20px;
+        background-color: #fff;
+        color: #333;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    #newsletter button:hover {
+        background-color: #ddd;
+    }
+
+    #footer-info {
+        font-size: 0.8em;
+    }
+
+    #footer-info a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    #footer-info a:hover {
+        text-decoration: underline;
+    }
+
+/* search bar */
+
+#search-bar {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 0.5em;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+#search-button {
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    background-color: #555;
+}
+
